@@ -1,0 +1,157 @@
+{
+  "selectedTemplate": 7,
+  "headings": {
+    "work": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": ""
+  },
+  "basics": {
+    "name": "Chance King",
+    "email": "gnikchance@gmail.com",
+    "phone": "",
+    "website": "https://gnikchance.github.io/"
+  },
+  "education": [
+    {
+      "institution": "Florida State University",
+      "location": "Tallahassee, Fl.",
+      "area": "Information & Communication Technology (Minor in Business)",
+      "studyType": "B.S.",
+      "startDate": "2012",
+      "endDate": "2016",
+      "gpa": ""
+    },
+    {}
+  ],
+  "work": [
+    {
+      "company": "Florida State University",
+      "location": "",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "Present",
+      "highlights": [
+        "Managed web portal for 40,000+ users",
+        "Oversaw official myFSU mobile app development",
+        "Built custom web applications for the university",
+        "Served as project manager for NodeJS team"
+      ]
+    },
+    {
+      "highlights": [
+        "Designed and managed website using Drupal CMS",
+        "Ran consistent e-mail campaigns to over 200,000 constituents",
+        "Led and supervised a team of web and digital communication interns"
+      ],
+      "company": "FSU Alumni Association",
+      "position": "Webmaster",
+      "startDate": "2016",
+      "endDate": "2018"
+    },
+    {
+      "highlights": [
+        "Updated database using mySQL & MongoDB",
+        "Designed landing page and web application using Bootstrap",
+        "Managed all social media accounts",
+        "Worked with CEO to implement funding strategies"
+      ],
+      "company": "Student Opportunity Center",
+      "position": "Full-Stack Intern",
+      "startDate": "2014",
+      "endDate": "2016"
+    },
+    {
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "VueJS",
+        "NodeJS",
+        "C#",
+        "Unity",
+        "VR",
+        "Java"
+      ]
+    },
+    {
+      "keywords": [
+        "Visual Studio Code",
+        "Command Line (CLI)",
+        "Photoshop",
+        "MongoDB/Atlas"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cocktail Champ",
+      "description": "Single-page application for discovering drink recipes",
+      "url": "https://cocktailchamp.herokuapp.com/",
+      "keywords": [
+        "VueJS",
+        "3rd Party API",
+        "NodeJS"
+      ]
+    },
+    {
+      "keywords": [
+        "NodeJS",
+        "AJAX",
+        "Bulma CSS"
+      ],
+      "name": "SpicyWriter",
+      "description": "Light-hearted web app that turns \"boring\" words into \"spicy\" ones",
+      "url": "http://spicywriter.com/"
+    },
+    {
+      "keywords": [
+        "Javascript",
+        "ThreeJS",
+        "A-Frame"
+      ],
+      "name": "vrDemo",
+      "description": "Browser-based VR experience, compatible with any VR headset",
+      "url": "https://gnikchance.github.io/vrDemo"
+    },
+    {
+      "keywords": [
+        null
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
