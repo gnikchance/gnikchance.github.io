@@ -1,53 +1,56 @@
 {
-  "selectedTemplate": 7,
+  "selectedTemplate": 2,
   "headings": {
-    "work": "Experience",
     "education": "Education",
     "skills": "Skills",
     "projects": "Projects",
-    "awards": ""
+    "awards": "",
+    "work": "Experience"
   },
   "basics": {
     "name": "Chance King",
-    "email": "gnikchance@gmail.com",
-    "phone": "",
-    "website": "https://gnikchance.github.io/"
+    "website": "https://gnikchance.github.io",
+    "location": {
+      "address": ""
+    },
+    "email": "gnikchance@gmail.com"
   },
   "education": [
     {
       "institution": "Florida State University",
       "location": "Tallahassee, Fl.",
-      "area": "Information & Communication Technology (Minor in Business)",
-      "studyType": "B.S.",
+      "area": "Information & Communication Technology",
+      "studyType": "BS",
       "startDate": "2012",
-      "endDate": "2016",
-      "gpa": ""
+      "endDate": "2016"
     },
     {}
   ],
   "work": [
     {
-      "company": "Florida State University",
-      "location": "",
-      "position": "Software Developer",
+      "location": "Remote",
       "website": "",
       "startDate": "2018",
       "endDate": "Present",
       "highlights": [
-        "Managed web portal for 40,000+ users",
+        "Served as project manager for NodeJS team",
+        "Managed web portal application for 40,000+ users",
         "Oversaw official myFSU mobile app development",
-        "Built custom web applications for the university",
-        "Served as project manager for NodeJS team"
-      ]
+        "Built custom web applications for the university"
+      ],
+      "company": "Florida State University",
+      "position": "Software Developer"
     },
     {
       "highlights": [
         "Designed and managed website using Drupal CMS",
         "Ran consistent e-mail campaigns to over 200,000 constituents",
-        "Led and supervised a team of web and digital communication interns"
+        "Led and supervised a team of web and digital communication interns",
+        "Coordinated with various departments to digitally promote events"
       ],
-      "company": "FSU Alumni Association",
+      "company": "FSU Alumni Association.",
       "position": "Webmaster",
+      "location": "Tallahassee, Fl.",
       "startDate": "2016",
       "endDate": "2018"
     },
@@ -58,20 +61,16 @@
         "Managed all social media accounts",
         "Worked with CEO to implement funding strategies"
       ],
-      "company": "Student Opportunity Center",
+      "company": "Student Opportunity Center.",
       "position": "Full-Stack Intern",
+      "location": "Tallahassee, Fl.",
       "startDate": "2014",
       "endDate": "2016"
-    },
-    {
-      "highlights": [
-        ""
-      ]
     }
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Languages & Libraries",
       "level": "",
       "keywords": [
         "HTML",
@@ -79,42 +78,56 @@
         "Javascript",
         "VueJS",
         "NodeJS",
-        "C#",
-        "Unity",
-        "VR",
-        "Java"
+        " C#",
+        "Java",
+        "Bootstrap",
+        "Bulma",
+        "SQL"
       ]
     },
     {
       "keywords": [
-        "Visual Studio Code",
-        "Command Line (CLI)",
+        "Unity",
+        "Virtual Reality",
+        "MongoDB/Atlas",
         "Photoshop",
-        "MongoDB/Atlas"
+        "Command Line (CLI)"
       ],
-      "name": "Tools"
+      "name": "Tools & Platforms"
     }
   ],
   "projects": [
     {
-      "name": "Cocktail Champ",
-      "description": "Single-page application for discovering drink recipes",
-      "url": "https://cocktailchamp.herokuapp.com/",
+      "description": "Light-hearted web app that turns \"boring\" words into \"spicy\" ones",
+      "url": "https://www.spicywriter.com",
+      "keywords": [
+        "NodeJS",
+        "AJAX",
+        "Bulma",
+        "Express"
+      ],
+      "name": "Spicy Writer"
+    },
+    {
+      "keywords": [
+        "Express",
+        "VueJS",
+        "ThreeJS",
+        "A-Frame"
+      ],
+      "name": "VR Web Games",
+      "description": "Central hub and directory for browser-based VR games",
+      "url": "https://www.vrwebgames.com"
+    },
+    {
       "keywords": [
         "VueJS",
         "3rd Party API",
         "NodeJS"
-      ]
-    },
-    {
-      "keywords": [
-        "NodeJS",
-        "AJAX",
-        "Bulma CSS"
       ],
-      "name": "SpicyWriter",
-      "description": "Light-hearted web app that turns \"boring\" words into \"spicy\" ones",
-      "url": "http://spicywriter.com/"
+      "name": "Cocktail Champ",
+      "description": "Single-page application for discovering drink recipes",
+      "url": "https://cocktailchamp.herokuapp.com/"
     },
     {
       "keywords": [
@@ -122,19 +135,9 @@
         "ThreeJS",
         "A-Frame"
       ],
-      "name": "vrDemo",
-      "description": "Browser-based VR experience, compatible with any VR headset",
+      "name": "VR Browser Demo",
+      "description": "Browser-based VR demo, compatible with any VR headset",
       "url": "https://gnikchance.github.io/vrDemo"
-    },
-    {
-      "keywords": [
-        null
-      ]
-    },
-    {
-      "keywords": [
-        ""
-      ]
     }
   ],
   "awards": [
