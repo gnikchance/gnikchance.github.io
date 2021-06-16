@@ -1,11 +1,11 @@
 {
-  "selectedTemplate": 2,
+  "selectedTemplate": 1,
   "headings": {
     "education": "Education",
     "skills": "Skills",
     "projects": "Projects",
-    "awards": "",
-    "work": "Experience"
+    "work": "Experience",
+    "awards": "Professional Summary"
   },
   "basics": {
     "name": "Chance King",
@@ -33,20 +33,20 @@
       "startDate": "2018",
       "endDate": "Present",
       "highlights": [
-        "Served as project manager for NodeJS team",
-        "Managed web portal application for 40,000+ users",
-        "Oversaw official myFSU mobile app development",
-        "Built custom web applications for the university"
+        "Created RESTful API's using NodeJS and Express for custom web applications",
+        "Built SQL queries that powered data-driven apps and their front end consumption",
+        "Oversaw official myFSU mobile app development and maintenance",
+        "Managed web portal application for 40,000+ daily users"
       ],
       "company": "Florida State University",
       "position": "Software Developer"
     },
     {
       "highlights": [
-        "Designed and managed website using Drupal CMS",
-        "Ran consistent e-mail campaigns to over 200,000 constituents",
+        "Developed web applications using Express, VueJS, and PostgreSQL",
+        "Designed and managed primary website using Drupal CMS",
         "Led and supervised a team of web and digital communication interns",
-        "Coordinated with various departments to digitally promote events"
+        "Ran consistent e-mail campaigns to over 200,000 constituents"
       ],
       "company": "FSU Alumni Association.",
       "position": "Webmaster",
@@ -56,9 +56,9 @@
     },
     {
       "highlights": [
-        "Updated database using mySQL & MongoDB",
+        "Updated databases using mySQL & MongoDB",
         "Designed landing page and web application using Bootstrap",
-        "Managed all social media accounts",
+        "Managed all social media accounts and automated email responses",
         "Worked with CEO to implement funding strategies"
       ],
       "company": "Student Opportunity Center.",
@@ -142,19 +142,20 @@
   ],
   "awards": [
     {
-      "title": "",
-      "date": "",
       "awarder": "",
-      "summary": ""
+      "summary": "Passionate and effective full-stack developer with over 5 years of experience in producing enterprise-level web and mobile applications. "
+    },
+    {
+      "summary": "Key skills include: constructing NodeJS/Express API endpoints, implementing front-end Javascript (Vue & React) designs, and building SQL statements using PostgreSQL and SQL Developer. "
     }
   ],
   "sections": [
     "templates",
     "profile",
+    "awards",
     "education",
     "work",
     "skills",
-    "projects",
-    "awards"
+    "projects"
   ]
 }
