@@ -37,6 +37,9 @@ WL.registerComponent('ball', {
             this.object.destroy();
             console.log('Ball Destroyed')
         }
+        else {
+            return
+        }
         // if (this.translation[5] < -0.75 ) {
         //     // console.log('this worked')
         //     // this.object.transformWorld[5] = this.translation[5]+10;
