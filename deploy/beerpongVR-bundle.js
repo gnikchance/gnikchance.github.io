@@ -28,19 +28,20 @@ WL.registerComponent('ball', {
     },
     start: function() {
         this.translation = this.object.transformWorld
+        this.collision = this.object.getComponent('collision')
         // console.log(this.translation)
     },
     update: function(dt) {
-        if (this.translation[5] < -0.4 ) {
-            // console.log('this worked')
-            // this.object.transformWorld[5] = this.translation[5]+10;
-            this.material = "Ground"
-        }
-        if (this.translation[5] < -0.75 ) {
-            // console.log('this worked')
-            // this.object.transformWorld[5] = this.translation[5]+10;
+        const overlaps = this.collision.queryOverlaps();
+        if (overlaps.length > 0) {
             this.object.destroy();
+            console.log('Ball Destroyed')
         }
+        // if (this.translation[5] < -0.75 ) {
+        //     // console.log('this worked')
+        //     // this.object.transformWorld[5] = this.translation[5]+10;
+        //     this.object.destroy();
+        // }
         // console.log(this.translation[5])
     },
 });
