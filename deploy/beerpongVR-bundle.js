@@ -33,7 +33,7 @@ WL.registerComponent('ball', {
     },
     update: function(dt) {
         const overlaps = this.collision.queryOverlaps();
-        if (overlaps.length > 0) {
+        if (overlaps.length > 0 && overlaps[0].object.name == "Ground") {
             this.object.destroy();
             console.log('Ball Destroyed')
         }
